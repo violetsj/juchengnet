@@ -1,0 +1,120 @@
+.am-search-input {
+    width: 8.05333rem !important;
+    height: .8rem !important;
+    background-color: #f5f5f5 !important;
+    border-radius: .4rem !important;
+    padding: 0 .22667rem 0 .37333rem !important;
+    border: 1px solid #ebebeb !important;
+
+    .am-search-value {
+        width: 8.56667rem !important;
+        font-size: .34667rem !important;
+        letter-spacing: 0 !important;
+        color: #666 !important;
+    }
+
+    .am-search-input .am-search-synthetic-ph-icon {
+        width: .43333rem !important;
+        height: .43333rem !important;
+        display: block !important;
+    }
+
+}
+
+.am-search-cancel {
+    font-family: PingFang-SC-Medium !important;
+    font-size: .37333rem !important;
+    color: #666 !important;
+}
+
+.left {
+    font-size: .34667rem;
+    font-weight: 400;
+    color: #666;
+    display: block;
+    height: 1.5333rem;
+    line-height: 1.5333rem;
+    margin-left: .3rem;
+}
+
+.list {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-wrap: wrap;
+    margin-top: .53333rem;
+
+    .li1 {
+        list-style: none;
+        font-family: PingFang-SC-Medium;
+        padding: 0 .66667rem;
+        height: .93333rem;
+        line-height: .93333rem;
+        font-size: .37333rem;
+        color: #232323;
+        background-color: #f5f5f5;
+        border-radius: .08rem;
+        margin-right: .38667rem;
+        margin-bottom: .34667rem;
+    }
+}
+
+.ul1 {
+    .li1 {
+        display: flex;
+        margin-top: .86667rem;
+       justify-content: space-between;
+      .imgs{
+        border: none;
+        border-color: transparent;
+        vertical-align: middle;
+        height: 4.0rem;
+        width: 2.98rem;
+      } 
+      .item-right{
+          padding-left: .5rem;
+          width: 6.9rem;
+         .time{
+            color: #232323;
+            font-size: .42667rem;
+         } 
+         .name{
+            width: 100%;
+            font-size: .45333rem;
+            line-height: .6rem;
+            min-height: .6rem;
+            max-height: 1.2rem;
+            margin-top: .33333rem;
+         }
+         .cityname{
+            margin-top: .63333rem;
+            width: 5.33333rem;
+            font-size: .32rem;
+            height: .64rem;
+            line-height: .64rem;
+            color: #666;
+         }
+         .price{
+             padding-top: .5rem;
+             color: #ff6743 !important;
+             .price1{
+                color: #ff6743 !important;
+             }
+             .price2{
+                 color: #ff6743 !important;
+             }
+             .price3{
+                font-size: .42667rem !important;
+                letter-spacing: 0 !important;;
+                padding-left: .1rem !important;;
+                font-weight: 400 !important;;
+                color: #999 !important;;
+             }
+         }
+         
+      }
+    }
+}
+.item-right /deep/.c_ff6{
+    color: #ff6743!important;
+ }

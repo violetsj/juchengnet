@@ -1,0 +1,131 @@
+.am-tabs-default-bar-tab-active {
+    color: #ff7919 !important;
+    font-weight: bold !important;
+}
+
+.am-tabs-default-bar-underline {
+    border: 1px #ff7919 solid !important;
+}
+
+.am-tabs-default-bar-tab {
+    color: #666;
+    font-size: .16rem !important;
+}
+.am-tabs-tab-bar-wrap{}
+// .am-tabs-default-bar{
+//     position: fixed !important;
+// } 
+// .am-tabs-default-bar-top{
+//     position: fixed !important;
+// }
+.am-tabs-content-wrap{
+    position: fixed !important;
+}
+.am-tabs{
+    display: inline-block !important;
+}
+
+.show-wrap {
+
+    width: 100%;
+    height: 100%;
+    margin: .3rem .15rem;
+    margin-bottom: 2.9rem;
+
+    .show-items {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 3.81rem;
+        padding: 0.15rem 0;
+
+        .img-box {
+            width: 2.64rem;
+            height: 4.12rem;
+
+            .imgs {
+                width: 2.84rem;
+                height: 3.52rem;
+                border: 1px solid transparent;
+            }
+            .img-box /deep/.logo_i ju_cheng {
+                width: 1.2373333333rem;
+                height: 1.4933333333rem;
+               
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            .logo_i ju_cheng {}
+        }
+
+        .detail-box {
+            width: 7.35rem;
+            height: 2.04rem;
+            padding-left: .6rem;
+
+            .title {
+                font-size: .12rem;
+            }
+
+            .time {
+                margin-top: .3rem;
+                font-size: .10rem;
+                color: #999;
+            }
+
+            .place {
+                margin: .1rem 0;
+                font-size: .08rem;
+                color: #999;
+            }
+
+            .ft0 {
+                padding-top: .3rem !important;
+                font-size: .12rem;
+                color: #ff7919 !important;
+
+                .fs24 {
+                    font-size: .08rem;
+                }
+
+                .fs32 {
+                    font-size: .12rem;
+                }
+
+                .fs24 {
+                    font-size: .12rem;
+                    padding-left: .05rem;
+                }
+            }
+        }
+    }
+}
+
+.show-nodata {
+    height: 4.94933rem;
+    background-size: 1.96267rem 1.96267rem;
+    font-size: 0.312rem;
+    color: #999999;
+    line-height: 1.49333rem;
+    
+    text-align: center;
+}
+.imgss{
+    line-height:1.46267rem;
+    height: 1.46267rem;
+    text-align: center;
+    padding-left:4.5rem;
+    padding-top: .2rem;
+    
+}
+.log{
+    font-size: .32rem;
+    color: #666;
+    text-align: center;
+    height: .53333rem;
+    line-height: .53333rem;
+    padding-bottom: .26667rem;
+}

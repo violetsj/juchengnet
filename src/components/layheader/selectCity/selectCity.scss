@@ -1,0 +1,181 @@
+
+.flex-navbar {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1.57733rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 0.54rem;
+    padding-right: 1.32267rem;
+    .icon {
+        font-family: "iconfont" !important;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: .8rem;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        color: #b2b2b2;
+        cursor: pointer;
+        color: #212121;
+    }
+    .center {
+        flex: 1;
+        font-size: 0.48267rem;
+        color: #212121;
+        padding-left: 3rem;
+    }
+}
+.select-area {
+    // width: 100%;
+    min-height: 100%;
+    padding-left: 0.64rem;
+    padding-right: 0.64rem;
+    background-color: #fff;
+    padding-top: 1.87733rem;
+  .area-title {
+        font-size: 0.312rem;
+        color: #999999;
+        line-height: 0.512rem;
+        padding-top: 0.64rem;
+    }
+    .area-wrap {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -0.32rem;
+        margin-right: -0.32rem;
+    }
+    .area-items {
+        width: 4.48rem;
+        height: 1.28rem;
+        line-height: 1.28rem;
+        background-color: #f5f5f5;
+        font-size: 0.55467rem;
+        color: #212121;
+        text-align: center;
+        border-radius: 0.10667rem;
+        margin: 0.42667rem 0.256rem 0;
+        padding-left: 0.10667rem;
+        padding-right: 0.10667rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .area-title {
+        font-size: 0.312rem;
+        color: #999999;
+        line-height: 0.512rem;
+        padding-top: 0.64rem;
+    }
+    .area-wrap {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -0.32rem;
+        margin-right: -0.32rem;
+    }
+    .area-items.dis {
+        // width: 6.61333rem;
+        color: #ff7919;
+    }
+    .area-title {
+        font-size: 0.312rem;
+        color: #999999;
+        line-height: 0.512rem;
+        padding-top: 0.64rem;
+    }
+    .area-wrap {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -0.32rem;
+        margin-right: -0.32rem;
+    }
+     .area-items {
+        width: 4.48rem;
+        height: 1.28rem;
+        line-height: 1.28rem;
+        background-color: #f5f5f5;
+        font-size: 0.35467rem;
+        color: #212121;
+        text-align: center;
+        border-radius: 0.10667rem;
+        margin: 0.42667rem 0.256rem 0;
+        padding-left: 0.10667rem;
+        padding-right: 0.10667rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .area-wrap {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -0.32rem;
+        margin-right: -0.32rem;
+        .area-items {
+            width:2.28rem;
+            height: 1.28rem;
+            line-height: 1.28rem;
+            background-color: #f5f5f5;
+            font-size: 0.35467rem;
+            color: #212121;
+            text-align: center;
+            border-radius: 0.10667rem;
+            margin: 0.42667rem 0.256rem 0;
+            padding-left: 0.10667rem;
+            padding-right: 0.10667rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+    .area-lists {
+        margin-left: -0.10667rem;
+        margin-right: -0.10667rem;
+        .area-Cap {
+            display: block;
+            height: 1.06667rem;
+            line-height: 1.06667rem;
+            font-size: 0.312rem;
+            color: #666;
+            background-color: #f6f6f6;
+            margin-left: -0.53333rem;
+            margin-right: -0.53333rem;
+            padding-left: 0.64rem;
+        }
+        .area-items {
+            height: 1.856rem;
+            line-height: 1.856rem;
+            border-top: 1px solid #e6e6e6;
+            font-size: 0.33733rem;
+            color: #333333;
+            padding-left: 0.10667rem;
+        }
+    }
+    .city-index {
+        position: fixed;
+        top: 2.89667rem;
+        right: 0.32rem;
+        width: 1.06667rem;
+        overflow-x: hidden;
+       .index-items {
+            display: block;
+            font-size: 0.32933rem;
+            color: #666;
+            height: 0.58267rem;
+            line-height: 0.54667rem;
+            text-align: right;
+        }
+    }
+  
+    
+}

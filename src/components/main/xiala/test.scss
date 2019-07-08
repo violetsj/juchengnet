@@ -1,0 +1,44 @@
+#ticket{
+    .recommend {
+        h3 {
+          margin: 40px 0 20px 12px;
+        }
+      }
+      .xiala {
+        li {
+          > div {
+            display: flex;
+            font-size: 12px;
+            padding: 0 20px 0 12px;
+            img {
+              display: block;
+              width: 94px;
+              height: 128px;
+              margin-right: 10px;
+            }
+            .re-right {
+              margin-bottom: 28px;
+    
+              h6 {
+                margin: 10px 0;
+                font-size: 13.5px;
+                span {
+                  font-weight: 100;
+                  font-size: 12px;
+                }
+              }
+              h4 {
+                font-size: 14.5px;
+                margin: 10px 0;
+              }
+              p {
+                margin: 10px 0;
+                span {
+                  color: #ff6743;
+                }
+              }
+            }
+          }
+        }
+      }
+}
